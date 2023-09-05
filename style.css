@@ -1,0 +1,61 @@
+
+
+.libre{font-family: 'Libre Baskerville', serif;
+}
+
+.nunito{font-family: 'Nunito', sans-serif;
+}
+
+.roboto{
+    font-family: 'Roboto Slab', serif;
+}
+
+.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title-box{
+    background-color: #87004e;
+}
+
+#JBritt{
+    color: antiquewhite;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cv-head{
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Columns for the About Me page */
+
+#about-intro{
+    height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column: span 2;
+}
+
+  .about-content{
+    display: flex;
+    align-items: left;
+    grid-column: span 3;
+}
+
+  .about-pic{
+    grid-column: span 1;
+}
+
+@media (max-width: 600px) { .about-content {
+    padding-left: 0px;
+    }
+}
